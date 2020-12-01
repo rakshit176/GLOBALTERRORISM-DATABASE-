@@ -1,0 +1,2 @@
+# GLOBALTERRORISM-DATABASE-
+Rshiny project 
