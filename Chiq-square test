@@ -1,0 +1,36 @@
+CHI-SQUARE TEST OF INDEPENDENCE
+
+The Chi-square Test of Independence compares two variables in a contingency table to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
+The Chi-square test of independence is used to analyse the frequency table (i.e. contingency table) formed by two categorical variables.
+The chi-square statistic is represented by the expression - 
+
+C is the Degrees of Freedom, Oi s are the Observed Frequencies and Ei s are the Expected Frequencies [Degree of freedom = (No of rows - 1)*(no of columns -1)].
+Null hypothesis: There is no relationship between the categorical variables. 
+Alternative hypothesis: There is a relationship between the categorical variables.
+Here, the Level of Significance (α) is important. 
+If p-value <= α : Significant result → reject null hypothesis (H0)
+If p-value > α : Not a significant result → fail to reject null hypothesis (H0)
+
+(I)	Chi-Square test of Independence for Attack Types and Success
+H0: Attack types and success are independent.
+H1: Attack types and success are not independent.
+
+Contingency Table for Attack Type and Success
+
+
+
+Chi-Square Test 
+
+The P-value (2.2e-16) is less than the significance level (0.05). Therefore, we reject the null hypothesis. 
+
+(II)	Chi-Square test of Independence for Weapon Types and Success
+H0: Weapon types and success are independent.
+H1: Weapon types and success are not independent
+
+Contingency Table for Weapon Type and Success
+
+Chi-Square Test
+
+The P-value (2.2e-16) is less than the significance level (0.05). Therefore, we reject the null hypothesis. 
+
+Contingency table can be visualized using the function balloonplot() in gplots package. This function draws a graphical matrix where each cell contains a dot whose size reflects the relative magnitude of association of the corresponding components. 
